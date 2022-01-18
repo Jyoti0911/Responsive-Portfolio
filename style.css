@@ -493,7 +493,7 @@ section .title::after{
     flex-direction: column;
     align-items: center;
     background-color: white;
-    width: 350px
+    width: 500px
     border: 1px solid black;
     box-shadow: 2px 2px 5px black;
     text-align: left; /* Changed from center to left */
@@ -736,9 +736,6 @@ footer span a:hover{
     .max-width{
         padding: 0 23px;
     }
-     .project-tile {
-    max-width: none;
-  }
     .home .home-content .text-2{
         font-size: 60px;
     }
