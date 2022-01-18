@@ -430,7 +430,7 @@ section .title::after{
     flex-direction: column;
     align-items: center;
     background-color: white;
-    width: 500px
+    width: 500px;
     border: 1px solid black;
     box-shadow: 2px 2px 5px black;
     text-align: left; /* Changed from center to left */
