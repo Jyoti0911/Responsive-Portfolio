@@ -28,7 +28,7 @@ html{
 
 /* all similar content styling codes */
 section{
-    padding: 100px 10px;
+    padding: 100px 15px;
 }
 .max-width{
     max-width: 1300px;
@@ -187,9 +187,10 @@ section .title::after{
     font-size: 75px;
     font-weight: 600;
     margin-left: -3px;
+    color: chocolate;
 }
 .home .home-content .text-3{
-    font-size: 40px;
+    font-size: 32px;
     margin: 5px 0;
 }
 .home .home-content .text-3 span{
@@ -275,7 +276,7 @@ section .title::after{
   }
   
   .education .box-container .box .year{
-    font-size: 2rem;
+    font-size: 1.5rem;
     color:rgb(3, 24, 92);
     position: relative;
   }
@@ -291,13 +292,13 @@ section .title::after{
   }
   
   .education .box-container .box h3{
-    font-size: 2rem;
+    font-size: 1.8rem;
     color:black;
     padding-top: 1rem;
   }
   
   .education .box-container .box p{
-    font-size: 1.8rem;
+    font-size: 1rem;
     color:black;
     padding: 1rem 0;
   }
@@ -400,6 +401,9 @@ section .title::after{
     /* Post Production */
     .project-tile {
       max-width: none;
+    }
+   .project-desc p{
+        font-size: 15px;
     }
 }
 
